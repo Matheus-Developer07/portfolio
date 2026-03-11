@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    background-color: #0f172a;
+}
+/* Header */
+.header{
+    background-color: #1e293b;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    font-family: "Courier New", monospace;
+}
+.header p{
+    color: rgb(235, 234, 234);
+    font-size: 20px;
+}
+.whats{
+    text-decoration: none;
+    color: rgb(235, 234, 234);
+    font-size: 12px;
+    margin-left: auto;
+}
+.insta{
+    text-decoration: none;
+    color: rgb(235, 234, 234);
+    font-size: 12px;
+    margin-left: 4px;
+}
+/* Who I am? */
+.whoiam{
+    background-color: #1e293b;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(34, 211, 238, 0.4);
+}
+.titlewhoi{
+    display: flex;
+    justify-content: center;
+}
+.whoiam h2{
+    color: rgb(235, 234, 234);
+}
+.whoiam img{
+    height: auto;
+    width: 200px;
+    margin-bottom: 50px;
+}
+.imgwhoi{
+    display: flex;
+    justify-content: center;
+}
+.txtwhoi{
+    display: flex;
+    justify-content: center;
+    color: rgb(235, 234, 234);
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
