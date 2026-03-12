@@ -121,6 +121,8 @@ body{
     max-width: 200px;
     margin-left: auto;
     margin-right: 50px;
+    display: flex;
+    flex: 1;
 }
 .baseboardlinks .whats{
     background-color: #25D366;
