@@ -8,15 +8,50 @@ body{
     padding: 30px;
     display: flex;
     font-family: "Courier New", monospace;
+    color: rgb(235, 234, 234);
+    font-size: 20px;
+    align-items: center;
+}
+.whats{
+    text-decoration: none;
+    color: rgb(235, 234, 234);
+    font-size: 12px;
+    margin-left: auto;
+}
+.insta{
+    text-decoration: none;
+    color: rgb(235, 234, 234);
+    font-size: 12px;
+    margin-left: 4px;
 }
 /* Projects */
 .landingpage{
     max-width: 700px;
-    border: 5px solid cyan;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 0px 0px 15px rgba(34, 211, 238, 0.4);
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 15px;
+    font-family: Verdana, sans-serif;
+    background-color: #1e293b;
 }
 .lalalanding{
     height: auto;
     width: 500px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 13px black;
+}
+.landingpageimg{
+    display: flex;
+    justify-content: center;
+}
+.landingpagetitle{
+    display: flex;
+    justify-content: center;
+    color: rgb(235, 234, 234);
+}
+.landingpagetxt{
+    color: rgb(235, 234, 234);
+    max-width: 500px;
 }

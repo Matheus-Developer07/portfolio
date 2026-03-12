@@ -62,3 +62,77 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+/* My projects */
+.projects{
+    background-color: #1e293b;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(34, 211, 238, 0.4);
+    font-family: Verdana, sans-serif;
+    margin-bottom: 50px;
+}
+.titleprojects{
+    display: flex;
+    justify-content: center;
+    color: rgb(235, 234, 234);
+}
+.txtprojects{
+    display: flex;
+    justify-content: center;
+    color: rgb(235, 234, 234);
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.linkprojects{
+    display: flex;
+    justify-content: center;
+}
+.linkprojects a{
+    text-decoration: none;
+    color: rgb(235, 234, 234);
+    background-color: #1e293b;
+    border-radius: 15px;
+    border: 3px solid cyan;
+    padding: 8px;
+    box-shadow: 0px 0px 15px black;
+    margin-bottom: 25px;
+}
+/* Baseboard */
+.baseboard{
+    display: flex;
+    align-items: center;
+    background-color: #1e293b;
+    color: rgb(235, 234, 234);
+    padding: 30px;
+    font-family: "Courier New", monospace;
+}
+.baseboardtitle{
+    font-size: 20px;
+}
+.baseboard p{
+    max-width: 400px;
+}
+.baseboardlinks{
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: 50px;
+}
+.baseboardlinks .whats{
+    background-color: #25D366;
+    padding: 8px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px black;
+    text-shadow: 0px 0px 10px black;
+}
+.baseboardlinks .insta{
+    background-color: #E1306C;
+    padding: 8px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px black;
+    text-shadow: 0px 0px 10px black;
+}
