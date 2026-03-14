@@ -61,3 +61,40 @@ body{
     color: rgb(235, 234, 234);
     max-width: 500px;
 }
+/* Baseboard */
+.baseboard{
+    display: flex;
+    align-items: center;
+    background-color: #1e293b;
+    color: rgb(235, 234, 234);
+    padding: 30px;
+    font-family: "Courier New", monospace;
+    margin-top: 50px;
+}
+.baseboardtitle{
+    font-size: 20px;
+}
+.baseboard p{
+    max-width: 400px;
+}
+.baseboardlinks{
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: 50px;
+    display: flex;
+    flex: 1;
+}
+.baseboardlinks .whats{
+    background-color: #25D366;
+    padding: 8px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px black;
+    text-shadow: 0px 0px 10px black;
+}
+.baseboardlinks .insta{
+    background-color: #E1306C;
+    padding: 8px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px black;
+    text-shadow: 0px 0px 10px black;
+}
