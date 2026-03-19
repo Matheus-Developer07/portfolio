@@ -36,19 +36,14 @@ body{
     margin-right: auto;
     margin-top: 30px;
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: center;
 }
-.alllinks .project{
+.alllinks a{
     text-decoration: none;
     color: rgb(235, 234, 234);
 }
-.alllinks .linkaboutme{
-    text-decoration: none;
-    color: rgb(235, 234, 234);
-}
-/* Who I am? */
-.whoiam{
+/* More about me */
+.moreaboutme{
     background-color: #1e293b;
     max-width: 700px;
     margin-left: auto;
@@ -60,23 +55,26 @@ body{
     box-shadow: 0px 0px 15px rgba(34, 211, 238, 0.4);
     font-family: Verdana, sans-serif;
 }
-.titlewhoi{
+.titleabout{
     display: flex;
     justify-content: center;
 }
-.whoiam h2{
+.titleabout h2{
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
     color: rgb(235, 234, 234);
 }
-.whoiam img{
-    height: auto;
-    width: 200px;
-    margin-bottom: 50px;
-}
-.imgwhoi{
+.imgaboutme{
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
 }
-.txtwhoi{
+.imgaboutme img{
+    height: auto;
+    max-width: 250px;
+}
+.txtabout{
     display: flex;
     justify-content: center;
     color: rgb(235, 234, 234);
