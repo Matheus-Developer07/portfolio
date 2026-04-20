@@ -30,11 +30,21 @@ body{
     font-size: 12px;
     margin-left: auto;
 }
+.whats:hover{
+    color: rgb(105, 104, 104);
+}
 .insta{
     text-decoration: none;
     color: rgb(235, 234, 234);
     font-size: 12px;
     margin-left: 4px;
+}
+.insta:hover{
+    color: rgb(105, 104, 104);
+}
+.dontKnow{
+    color: rgb(235, 234, 234);
+    font-size: 12px;
 }
 /* All links */
 .alllinks{
@@ -49,6 +59,9 @@ body{
 .alllinks a{
     text-decoration: none;
     color: rgb(235, 234, 234);
+}
+.alllinks a:hover{
+    color: rgb(105, 104, 104);
 }
 /* Projects */
 .landingpage{
